@@ -19,6 +19,7 @@
 		888B77AF2C21D66B00D18134 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B77AC2C21D66B00D18134 /* CircleImage.swift */; };
 		888B77B12C21D87700D18134 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B77B02C21D87700D18134 /* LandmarkRow.swift */; };
 		888B77B42C21DACF00D18134 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B77B32C21DACF00D18134 /* LandmarkList.swift */; };
+		888B77B62C21E4AC00D18134 /* LandmartDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B77B52C21E4AC00D18134 /* LandmartDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		888B77AC2C21D66B00D18134 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		888B77B02C21D87700D18134 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		888B77B32C21DACF00D18134 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		888B77B52C21E4AC00D18134 /* LandmartDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmartDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 			children = (
 				888B77B02C21D87700D18134 /* LandmarkRow.swift */,
 				888B77B32C21DACF00D18134 /* LandmarkList.swift */,
+				888B77B52C21E4AC00D18134 /* LandmartDetail.swift */,
 			);
 			path = LandmarkSubviews;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				888B77922C21D5E900D18134 /* LandmarkApp.swift in Sources */,
+				888B77B62C21E4AC00D18134 /* LandmartDetail.swift in Sources */,
 				888B77A92C21D65000D18134 /* ModelData.swift in Sources */,
 				888B77AE2C21D66B00D18134 /* ContentView.swift in Sources */,
 				888B77AF2C21D66B00D18134 /* CircleImage.swift in Sources */,
