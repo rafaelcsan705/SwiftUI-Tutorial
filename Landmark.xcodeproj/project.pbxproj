@@ -40,6 +40,7 @@
 		88C2A72D2C239513002E259D /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C2A72C2C239513002E259D /* ProfileHost.swift */; };
 		88C2A72F2C23956F002E259D /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C2A72E2C23956F002E259D /* ProfileSummary.swift */; };
 		88C2A7312C2396BA002E259D /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C2A7302C2396BA002E259D /* HikeBadge.swift */; };
+		88C2A7332C2424D2002E259D /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C2A7322C2424D2002E259D /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		88C2A72C2C239513002E259D /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		88C2A72E2C23956F002E259D /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		88C2A7302C2396BA002E259D /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		88C2A7322C2424D2002E259D /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				88C2A72C2C239513002E259D /* ProfileHost.swift */,
+				88C2A7322C2424D2002E259D /* ProfileEditor.swift */,
 				88C2A72E2C23956F002E259D /* ProfileSummary.swift */,
 			);
 			path = Profile;
@@ -300,6 +303,7 @@
 			files = (
 				88C2A7162C235FF8002E259D /* Hike.swift in Sources */,
 				88C2A70A2C22E587002E259D /* HexagonParameters.swift in Sources */,
+				88C2A7332C2424D2002E259D /* ProfileEditor.swift in Sources */,
 				88C2A72F2C23956F002E259D /* ProfileSummary.swift in Sources */,
 				888B77922C21D5E900D18134 /* LandmarkApp.swift in Sources */,
 				88C2A72A2C239483002E259D /* Profile.swift in Sources */,
