@@ -142,6 +142,7 @@
 		88C2A7382C243C38002E259D /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		88C2A73A2C243CC4002E259D /* TextOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextOverlay.swift; sourceTree = "<group>"; };
 		88C2A73C2C243E8E002E259D /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		88EC96232C26F6960063245B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +222,7 @@
 		888B77902C21D5E900D18134 /* Landmark */ = {
 			isa = PBXGroup;
 			children = (
+				88EC96232C26F6960063245B /* Info.plist */,
 				888B77A12C21D60100D18134 /* Model */,
 				888B77A02C21D5F700D18134 /* Resources */,
 				888B779F2C21D5F000D18134 /* Views */,
@@ -723,6 +725,7 @@
 				DEVELOPMENT_TEAM = 8JSPBLZJX6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Landmark/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -753,6 +756,7 @@
 				DEVELOPMENT_TEAM = 8JSPBLZJX6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Landmark/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
