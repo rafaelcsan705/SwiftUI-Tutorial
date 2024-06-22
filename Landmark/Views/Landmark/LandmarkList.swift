@@ -18,7 +18,6 @@ struct LandmarkList: View {
             List {
                 Toggle(isOn: $showFavoritesOnly) {
                     Text("Favorites Only")
-                        .font(.title)
                 }
                 
                 ForEach(filteredLandmarks) { landmark in
