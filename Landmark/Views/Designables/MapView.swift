@@ -8,9 +8,28 @@
 import SwiftUI
 import MapKit
 
+enum Zoom: String, CaseIterable, Identifiable {
+    case near = "Near"
+    case medium = "Medium"
+    case far = "Far"
+    
+    var id: Zoom { self }
+}
+
 struct MapView: View {
     
+    @AppStorage("MapView.zoom")
+    private var zoom: Zoom = .medium
+    
     let coordinator: CLLocationCoordinate2D
+    
+    var delta: CLLocationDegrees {
+        switch zoom {
+        case .near: 0.02
+        case .medium: 0.2
+        case .far: 2.0
+        }
+    }
     
     var body: some View {
         Map(initialPosition: .region(region))
@@ -19,7 +38,7 @@ struct MapView: View {
     private var region: MKCoordinateRegion {
         MKCoordinateRegion(
             center: coordinator,
-            span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2)
+            span: MKCoordinateSpan(latitudeDelta: delta, longitudeDelta: delta)
         )
     }
 }
